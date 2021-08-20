@@ -4,7 +4,7 @@ Aws integration with spring boot.
 
 # Important Command in linux
 
-<details><summary>Command</summary>
+<details><summary> Command</summary>
 <p>
 
 - Present working directory
@@ -105,7 +105,7 @@ yum install java-1.8.0-openjdk
 alternatives --config java
 ```
 
-# TO MAKE SPRING PROJECT RUN AUTOMATICALLY WHEN INSTANCE IS RUNNING
+# To Make Spring Project Run Automatically When Instance Is Running
 
 ```
 cat /ect/rc.local
@@ -115,8 +115,7 @@ java -jar /home/ec2-user/coupanservice-0.1-SNAPSHOT.jar
 chmod +x /etc/rc.d/rc.local
 ```
 
-# Packages changed in aws (run following command)
-
+# Packages changed in aws 
 ```
 amazon-linux-extras install epel -y
 yum install stress -y
