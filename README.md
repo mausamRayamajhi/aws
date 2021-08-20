@@ -4,7 +4,8 @@ Aws integration with spring boot.
 
 # Important Command in linux
 
-## Command
+<details><summary>Command</summary>
+<p>
 
 - Present working directory
 
@@ -42,7 +43,6 @@ yum gruoplist
 yum install <package name> 
 ```
 
-=====================
 - To start the service
 
 ```
@@ -78,6 +78,10 @@ tail -5 /var/log/yum.log
 ```
 yum search java
 ```
+
+</p>
+
+</details>
 
 # Install MYSQL in AWS
 
